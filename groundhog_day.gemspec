@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = ["README.md", "LICENSE.txt", "Rakefile"]
   spec.files        += ['lib/groundhog_day.rb', 'lib/groundhog_day/date_extensions.rb', 'lib/groundhog_day/datetime_extensions.rb', 'lib/groundhog_day/time_extensions.rb','lib/groundhog_day/version.rb']
 
-  spec.add_development_dependency "bundler", "~> 1.11"
+  spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "pry"
